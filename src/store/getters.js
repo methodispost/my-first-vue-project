@@ -8,6 +8,12 @@ const getters = {
   },
   musicData(state) {
     return state.musicData;
+  },
+  skinColor(state) {
+    return state.skinColor;
+  },
+  linkBorderIndex(state) {
+    return state.linkBorderIndex;
   }
 };
 

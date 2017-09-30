@@ -19,6 +19,9 @@ const actions = {
         });
       reslove();
     });
+  },
+  showAsideMenu({commit, flag}) {
+    commit(types.SHOW_ASIDE_MENU, flag);
   }
 };
 

@@ -11,6 +11,21 @@ export default new Router({
       path: '/',
       name: '/',
       component: MusicList
+    // },
+    // {
+    //   path: '/music-list',
+    //   name: '',
+    //   component: ''
+    // },
+    // {
+    //   path: '/find',
+    //   name: '',
+    //   component: ''
+    // },
+    // {
+    //   path: '/social',
+    //   name: '',
+    //   component: ''
     }
   ]
 })

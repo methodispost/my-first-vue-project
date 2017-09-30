@@ -29,7 +29,8 @@
 </script>
 
 <style lang="scss" scoped>
-  /*@import "./common/style/base.scss";*/
+  @import "./common/style/base.scss";
+  body {margin: 0}
   #app, .index {
     position: relative;
     display: flex;
